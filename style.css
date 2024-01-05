@@ -18,11 +18,17 @@ body {
 }
 
 /* common styles end */
+
+/* header style start here */
+.header {
+    background-color: #FFF8F3;
+}
 /* nav styles start here */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .nav-title {
@@ -33,7 +39,7 @@ nav {
     line-height: normal;
 }
 
-nav >ul {
+nav>ul {
     display: flex;
     align-items: center;
 }
@@ -48,4 +54,16 @@ nav li>a {
     color: #474747;
 }
 
-.hire-btn {}
+/* nav style end here */
+
+/* banner start here */
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-picture{
+    height: 600px;
+    width: 500px;
+}
+/* header style end here*/
