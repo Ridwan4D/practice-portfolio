@@ -24,8 +24,8 @@ body {
     font-weight: 700;
 }
 
-.sec-description{
-    color:#757575;
+.sec-description {
+    color: #757575;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
@@ -115,30 +115,58 @@ nav li>a {
 /* header style end here*/
 
 /* main style part start here */
-main{
+main {
     max-width: 1140px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
+
 /* about section start here */
 .about {
-    padding: 130px 200px;
+    padding: 130px 150px;
     margin: 130px 0;
     border-radius: 10px;
     background: #FFF8F3;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
     margin-top: 25px;
 }
-.about-info .info-title{
+
+.about-info .info-title {
     margin: 0;
     padding: 0;
 }
-.about-info .info-description{
+
+.about-info .info-description {
     margin: 0;
     padding: 0;
+}
+
+/* what i do section start */
+.to-do{
+    margin-bottom:130px ;
+}
+#todo-description {
+    padding: 0 150px;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    height: auto;
+    width: 270px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin-right: 25px;
 }
