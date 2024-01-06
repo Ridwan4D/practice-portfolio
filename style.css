@@ -31,6 +31,10 @@ body {
     font-weight: 400;
 }
 
+.dark-2 {
+    color: #474747;
+}
+
 /* common styles end */
 
 /* header style start here */
@@ -119,11 +123,13 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+}
 
 /* about section start here */
 .about {
     padding: 130px 150px;
-    margin: 130px 0;
     border-radius: 10px;
     background: #FFF8F3;
 }
@@ -149,24 +155,65 @@ main {
 }
 
 /* what i do section start */
-.to-do{
-    margin-bottom:130px ;
+.to-do {
+    margin-bottom: 130px;
 }
+
 #todo-description {
     padding: 0 150px;
+    color: #757575;
 }
 
 .skill-container {
     display: flex;
     justify-content: space-around;
+    /* gap: 25px; */
 }
 
 .card {
     height: auto;
-    width: 270px;
+    width: auto;
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     padding: 30px;
     margin-right: 25px;
+}
+
+/* what i do section end */
+
+/* resume section start */
+.resume-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 10px 20px;
+}
+
+.col-title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.resume-info h4 {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.resume-info .year {
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.resume-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.resume-info div {
+    margin: 15px 0;
 }
